@@ -10,6 +10,7 @@ const members = [
   {name:"Nyx",    role:"m",  tz:"Europe/Helsinki"},
   {name:"Ais",    role:"m",  tz:"Africa/Johannesburg"},
   {name:"Talaaa", role:"m",  tz:"Europe/Istanbul"},
+  {name:"Spamwithtam",    role:"m",  tz:"Asia/Kolkata"},
   {name:"Kim",    role:"m",  tz:"Asia/Jakarta"},
 ];
 
