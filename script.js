@@ -3,6 +3,7 @@ const members = [
   {name:"Nemo",   role:"bx", tz:"America/Chicago"},
   {name:"Vic",    role:"b",  tz:"Europe/London"},
   {name:"Tony",   role:"b",  tz:"America/Chicago"},
+  {name:"Braxton",  role:"m", tz:"America/Chicago"},
   {name:"Bender", role:"m",  tz:"America/Sao_Paulo"},
   {name:"Mikey",  role:"m",  tz:"Europe/London"},
   {name:"Kobe",   role:"m",  tz:"Europe/Paris"},
