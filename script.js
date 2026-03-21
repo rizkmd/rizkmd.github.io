@@ -8,6 +8,7 @@ const members = [
   {name:"Braxton",  role:"m", tz:"America/Chicago"},
   {name:"Wrathkon",  role:"m", tz:"America/Toronto"},
   {name:"Bender", role:"m",  tz:"America/Sao_Paulo"},
+  {name:"Bailey",  role:"m",  tz:"Europe/London"},
   {name:"Mikey",  role:"m",  tz:"Europe/London"},
   {name:"Kobe",   role:"m",  tz:"Europe/Paris"},
   {name:"Sarica", role:"m",  tz:"Europe/Helsinki"},
