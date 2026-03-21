@@ -6,6 +6,7 @@ const members = [
   {name:"Jarkck",    role:"m",  tz:"America/Vancouver"},
   {name:"Aloro",    role:"m",  tz:"America/Chicago"},
   {name:"Braxton",  role:"m", tz:"America/Chicago"},
+  {name:"Little Pablo",  role:"m", tz:"America/Chicago"},
   {name:"Pepe",  role:"m", tz:"America/Toronto"},
   {name:"Wrathkon",  role:"m", tz:"America/Toronto"},
   {name:"Bender", role:"m",  tz:"America/Sao_Paulo"},
