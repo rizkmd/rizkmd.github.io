@@ -22,6 +22,7 @@ const members = [
   {name:"Sarica", role:"m",  tz:"Europe/Helsinki"},
   {name:"Talaaa", role:"m",  tz:"Europe/Istanbul"},
   {name:"Spamwithtam",    role:"m",  tz:"Asia/Kolkata"},
+  {name:"Alcatraz",    role:"m",  tz:"Asia/Jakarta"},
   {name:"Kim",    role:"m",  tz:"Asia/Jakarta"},
   {name:"Belry",    role:"m",  tz:"Asia/Singapore"},
   {name:"Schizonova",    role:"m",  tz:"Asia/Singapore"},
