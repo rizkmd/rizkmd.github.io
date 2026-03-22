@@ -20,6 +20,7 @@ const members = [
   {name:"Spamwithtam",    role:"m",  tz:"Asia/Kolkata"},
   {name:"Kim",    role:"m",  tz:"Asia/Jakarta"},
   {name:"Belry",    role:"m",  tz:"Asia/Singapore"},
+  {name:"Sizzle",    role:"m",  tz:"Australia/Sydney"}
 ];
 
 function fmt(tz) {
