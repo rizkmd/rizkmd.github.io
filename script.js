@@ -4,6 +4,7 @@ const members = [
   {name:"Vic",    role:"b",  tz:"Europe/London"},
   {name:"Tony",   role:"b",  tz:"America/Chicago"},
   {name:"Jarkck",    role:"m",  tz:"America/Vancouver"},
+  {name:"Jilbey",    role:"m",  tz:"America/Vancouver"},
   {name:"Aloro",    role:"m",  tz:"America/Chicago"},
   {name:"Braxton",  role:"m", tz:"America/Chicago"},
   {name:"Little Pablo",  role:"m", tz:"America/Chicago"},
