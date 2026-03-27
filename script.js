@@ -31,6 +31,7 @@ const members = [
   {name:"Spider",  role:"m", tz:"America/Toronto"},
   {name:"Wrathkon",  role:"m", tz:"America/Toronto"},
   {name:"Bender", role:"m",  tz:"America/Sao_Paulo"},
+  {name:"Webra", role:"m",  tz:"America/Sao_Paulo"},
 ];
 
 function fmt(tz) {
