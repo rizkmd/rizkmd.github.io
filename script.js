@@ -16,6 +16,7 @@ const members = [
   {name:"Spamwithtam",    role:"m",  tz:"Asia/Kolkata"},
   {name:"Alcatraz",    role:"m",  tz:"Asia/Jakarta"},
   {name:"Belry",    role:"m",  tz:"Asia/Singapore"},
+  {name:"Kantonero",    role:"m",  tz:"Asia/Singapore"},
   {name:"Possitive_under",    role:"m",  tz:"Asia/Singapore"},
   {name:"Schizonova",    role:"m",  tz:"Asia/Singapore"},
   {name:"L33t",    role:"m",  tz:"Australia/Sydney"},
