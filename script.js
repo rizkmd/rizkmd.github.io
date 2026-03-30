@@ -1,9 +1,9 @@
 const members = [
   {name:"Pablo",  role:"bx", tz:"Europe/London"},
+  {name:"Vic",    role:"bx",  tz:"Europe/London"},
+  {name:"Kim",    role:"bx",  tz:"Asia/Jakarta"},
   {name:"Nemo",   role:"bx", tz:"America/Chicago"},
-  {name:"Vic",    role:"b",  tz:"Europe/London"},
-  {name:"Kim",    role:"b",  tz:"Asia/Jakarta"},
-  {name:"Tony",   role:"b",  tz:"America/Chicago"},
+  {name:"Tony",   role:"bx",  tz:"America/Chicago"},
   {name:"Bailey",  role:"m",  tz:"Europe/London"},
   {name:"Mikey",  role:"m",  tz:"Europe/London"},
   {name:"Kobe",   role:"m",  tz:"Europe/Paris"},
