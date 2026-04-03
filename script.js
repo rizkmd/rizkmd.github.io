@@ -23,6 +23,7 @@ const members = [
   {name:"Sizzle",    role:"m",  tz:"Australia/Sydney"},
   {name:"Jarkck",    role:"m",  tz:"America/Vancouver"},
   {name:"Jilbey",    role:"m",  tz:"America/Vancouver"},
+  {name:"Roheezy",    role:"m",  tz:"America/Vancouver"},
   {name:"Aloro",    role:"m",  tz:"America/Chicago"},
   {name:"Braxton",  role:"m", tz:"America/Chicago"},
   {name:"Little Pablo",  role:"m", tz:"America/Chicago"},
