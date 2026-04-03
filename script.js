@@ -20,6 +20,7 @@ const members = [
   {name:"Kantonero",    role:"m",  tz:"Asia/Singapore"},
   {name:"Possitive_under",    role:"m",  tz:"Asia/Singapore"},
   {name:"Schizonova",    role:"m",  tz:"Asia/Singapore"},
+  {name:"Sloppy",    role:"m",  tz:"Asia/Singapore"},
   {name:"L33t",    role:"m",  tz:"Australia/Sydney"},
   {name:"Sizzle",    role:"m",  tz:"Australia/Sydney"},
   {name:"Jarkck",    role:"m",  tz:"America/Vancouver"},
