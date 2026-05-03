@@ -1,28 +1,279 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css" />
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Faction Time</title>
-  </head>
-  <body>
-    <div class="wrap">
-      <div class="top-cards">
-        <div class="card">
-          <div class="role-pip pip-tc"></div>
-          <div class="card-name">Torn City</div>
-          <div class="card-clock" id="tc-clock"></div>
-          <div class="card-sub" id="tc-date"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rizka M — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Phosphor Icons (CDN, no build step) -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+</head>
+<body>
+
+  <!-- ─── NAV ──────────────────────────────────────────────── -->
+  <header class="nav-wrapper">
+    <nav class="nav container">
+      <a href="#hero" class="nav-logo">Rizka M - Portfolio<span class="accent">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ─── HERO ─────────────────────────────────────────────── -->
+    <section id="hero" class="hero section-full">
+      <div class="hero-content container">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Rizka</h1>
+        <p class="hero-title">
+          <span class="accent" id="typingText"></span>
+        </p>
+        <p class="hero-tagline">
+          Informatics graduate who builds things across data, games, and the web. <br>
+          I love turning ideas into working projects.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-scroll-hint">
+          <span>scroll down</span>
+          <i class="ph ph-arrow-down"></i>
         </div>
       </div>
-      <div class="section-label">Bankers &amp; Xanax</div>
-      <div class="cards" id="grid-bx"></div>
-      <!-- <div class="section-label">Bankers</div> -->
-      <div class="cards" id="grid-b"></div>
-      <div class="section-label">Members</div>
-      <div class="cards" id="grid-m"></div>
+    </section>
+
+    <!-- ─── ABOUT ─────────────────────────────────────────────── -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <div class="about-grid">
+          <div class="about-avatar">
+            <img src="copy.JPG" alt="Rizka M — profile photo" class="avatar-photo" />
+            </div>
+          <div class="about-text">
+            <p><br>
+              I am an informatics graduate from Telkom University with research experience in the field of Data Science. <br>
+              I am a motivated learner who keeps developing my skills and excited to start my professional career journey. 
+              Outside of work, I enjoy building personal projects, playing video games, and watching vtubers.
+            </p>
+            <!--- <p>
+              I hold a degree in Informatics from Telkom University and have
+              worked across industries including [Industry A] and [Industry B].
+              Outside of work, I enjoy reading research papers, contributing to
+              open-source projects, and hiking.
+            </p> -->
+            <!-- <a href="#" class="btn btn-outline" download>
+              <i class="ph ph-download-simple"></i> Download Resume
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SKILLS ────────────────────────────────────────────── -->
+    <section id="skills" class="skills section section-alt">
+      <div class="container">
+        <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+        <div class="skills-grid">
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Languages</h3>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">GDScript</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Softwares</h3>
+            <div class="tags">
+              <span class="tag">Godot</span>
+              <span class="tag">Ms Excel</span>
+              <span class="tag">Ms Word</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Certificates</h3>
+            <div class="tags">
+              <span class="tag">English Proficiency Test (EPrT) 453</span>
+              <span class="tag">Advanced AI Engineer by Digital Talent Scholarship KOMDIGI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROJECTS ──────────────────────────────────────────── -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-card-header">
+              <i class="ph ph-brain project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/rizkmd/sentiment-analysis-on-video-game-reviews-using-knn" target="_blank" aria-label="GitHub" title="View on GitHub"><i class="ph ph-github-logo"></i></a>
+                <!-- <a href="https://github.com/rizkmd/sentiment-analysis-on-video-game-reviews-using-knn" target="_blank"aria-label="Live demo" title="Live demo"><i class="ph ph-arrow-square-out"></i></a> -->
+              </div>
+            </div>
+            <h3 class="project-title">Sentiment Analysis on Disco Elysium Video Game Reviews</h3>
+            <p class="project-desc">
+              Graduation project. Presented at The 4th International Conference on 
+              Intelligent Cybernetics Technology and Applications (ICICyTA 2024), December 17–19, 2024. 
+            </p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">KNN</span>
+              <span class="tag">SVM</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-header">
+              <i class="ph ph-game-controller project-icon"></i>
+              <div class="project-links">
+                <!-- <a href="#" aria-label="GitHub" title="View on GitHub"><i class="ph ph-github-logo"></i></a> -->
+                <a href="https://store.steampowered.com/app/3037900/WGV_Dreamcatcher/" target="_blank"aria-label="View on Steam" title="View on Steam"><i class="ph ph-arrow-square-out"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">WGV Dreamcatcher</h3>
+            <p class="project-desc">
+              <br>
+              Group project. A visual novel game about the journey to achieve dreams. <br>
+              I was responsible for the story writing and multiple branching paths.
+            </p>
+            <div class="tags">
+              <span class="tag">Ren'Py</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-header">
+              <i class="ph ph-browsers project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/rizkmd/faction-time" target="_blank" aria-label="GitHub" title="View on GitHub"><i class="ph ph-github-logo"></i></a>
+                <a href="faction-time/index.html" target="_blank"aria-label="Open in new tab" title="Open in new tab"><i class="ph ph-arrow-square-out"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Faction Time</h3>
+            <p class="project-desc">
+              <br>
+              Personal project. A simple time zone dashboard of faction members in Torn City Game to ensure smooth coordination 
+              across multiple countries and time zones.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-header">
+              <i class="ph ph-game-controller project-icon"></i>
+              <div class="project-links">
+                <a href="https://github.com/rizkmd/moonlight-gleams" target="_blank" aria-label="GitHub" title="View on GitHub"><i class="ph ph-github-logo"></i></a>
+                <!-- <a href="#" aria-label="Live demo" title="Live demo"><i class="ph ph-arrow-square-out"></i></a> -->
+              </div>
+            </div>
+            <h3 class="project-title">Moonlight Gleams</h3>
+            <p class="project-desc">
+              Personal project. A simple platformer video game. The game is still in early development stage, but the core 
+              mechanics and level design are already implemented. I use free assets.
+            <div class="tags">
+              <span class="tag">Godot</span>
+              <span class="tag">GDScript</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EXPERIENCE ────────────────────────────────────────── -->
+    <section id="experience" class="experience section section-alt">
+      <div class="container">
+        <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+        <ol class="timeline">
+
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jul 2018 – Present</span>
+              <h3 class="timeline-role">Driver</h3>
+              <p class="timeline-company">Grab Indonesia · Part-time</p>
+              <p class="timeline-desc">
+                Picked up and dropped off passengers, food, and packages. <br>
+                Maintained 5 stars rating for 8 years.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jul 2021 – Aug 2021</span>
+              <h3 class="timeline-role">Network Engineer Intern</h3>
+              <p class="timeline-company">Telkom Witel Bandung · Internship</p>
+              <p class="timeline-desc">
+                Monitored and maintained computer networks in Telkom Witel Bandung. <br>
+                Configured and installed the LED running text display in Telkom Witel Bandung. 
+              </p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ───────────────────────────────────────────── -->
+    <section id="contact" class="contact section">
+      <div class="container contact-inner">
+        <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
+        <p class="contact-desc">
+          I'm currently open to new opportunities, collaborations, and
+          interesting data problems. My inbox is always open.
+        </p>
+        <a href="mailto:rijkamd@gmail.com" class="btn btn-primary contact-email">
+          <i class="ph ph-envelope-simple"></i> rijkamd@gmail.com
+        </a>
+        <div class="social-links">
+          <a href="https://github.com/rizkmd" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="ph ph-github-logo"></i>
+          </a>
+          <a href="https://linkedin.com/in/rizkamd" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="https://reecegames.itch.io/" target="_blank" rel="noopener" aria-label="Itch.io">
+            <i class="ph ph-game-controller"></i> 
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by <span class="accent">Rizka M</span> · 2026</p>
     </div>
-  </body>
-  <script src="script.js"></script>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
