@@ -94,6 +94,7 @@ body {
   color: var(--text);
   text-decoration: none;
   letter-spacing: -1px;
+  white-space: nowrap;
 }
 .nav-links {
   list-style: none;
@@ -338,7 +339,8 @@ body {
 @media (max-width: 768px) {
   .hamburger { display: flex; }
 
-  .nav-logo { font-size: 1rem; }  
+  .nav-logo { font-size: .9rem; letter-spacing: 0; }
+    
   .nav-links {
     position: fixed;
     inset-block-start: var(--nav-h);
