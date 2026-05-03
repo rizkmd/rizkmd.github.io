@@ -338,6 +338,7 @@ body {
 @media (max-width: 768px) {
   .hamburger { display: flex; }
 
+  .nav-logo { font-size: 1rem; }  
   .nav-links {
     position: fixed;
     inset-block-start: var(--nav-h);
