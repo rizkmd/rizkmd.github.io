@@ -7,6 +7,7 @@ const members = [
   {name:"Bailey",  role:"m",  tz:"Europe/London"},
   {name:"Bkhl",  role:"m",  tz:"Europe/London"},
   {name:"Chloe",  role:"m",  tz:"Europe/London"},
+  {name:"Legee",  role:"m",  tz:"Europe/London"},
   {name:"Mikey",  role:"m",  tz:"Europe/London"},
   {name:"Ais",    role:"m",  tz:"Africa/Johannesburg"},
   {name:"Gerroe",    role:"m",  tz:"Africa/Johannesburg"},
