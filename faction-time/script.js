@@ -27,6 +27,7 @@ const members = [
   {name:"Aloro",    role:"m",  tz:"America/Chicago"},
   {name:"Braxton",  role:"m", tz:"America/Chicago"},
   {name:"Little Pablo",  role:"m", tz:"America/Chicago"},
+  {name:"Pulisor",  role:"m", tz:"America/Chicago"}
   {name:"Hamlito",  role:"m", tz:"America/Toronto"},
   {name:"Pepe",  role:"m", tz:"America/Toronto"},
   {name:"Spider",  role:"m", tz:"America/Toronto"},
