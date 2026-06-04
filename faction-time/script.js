@@ -9,7 +9,9 @@ const members = [
   {name:"Chloe",  role:"m",  tz:"Europe/London"},
   {name:"Legee",  role:"m",  tz:"Europe/London"},
   {name:"Mikey",  role:"m",  tz:"Europe/London"},
+  {name:"Tequila",  role:"m",  tz:"Europe/London"},
   {name:"Ais",    role:"m",  tz:"Africa/Johannesburg"},
+  {name:"Freddy",    role:"m",  tz:"Africa/Johannesburg"},
   {name:"Gerroe",    role:"m",  tz:"Africa/Johannesburg"},
   {name:"Kobe",   role:"m",  tz:"Europe/Paris"},
   {name:"Mildoser",   role:"m",  tz:"Europe/Paris"},
@@ -20,6 +22,7 @@ const members = [
   {name:"Alcatraz",    role:"m",  tz:"Asia/Jakarta"},
   {name:"Belry",    role:"m",  tz:"Asia/Singapore"},
   {name:"HanaMazi",    role:"m",  tz:"Asia/Singapore"},
+  {name:"Hatdog",    role:"m",  tz:"Asia/Singapore"},
   {name:"Schizonova",    role:"m",  tz:"Asia/Singapore"},
   {name:"Jarkck",    role:"m",  tz:"America/Vancouver"},
   {name:"Jilbey",    role:"m",  tz:"America/Vancouver"},
@@ -33,7 +36,6 @@ const members = [
   {name:"Spider",  role:"m", tz:"America/Toronto"},
   {name:"Wrathkon",  role:"m", tz:"America/Toronto"},
   {name:"Bender", role:"m",  tz:"America/Sao_Paulo"},
-  {name:"Webra", role:"m",  tz:"America/Sao_Paulo"},
 ];
 
 function fmt(tz) {
