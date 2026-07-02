@@ -4,6 +4,7 @@ const members = [
   {name:"Tony",   role:"bx",  tz:"America/Chicago"},
   {name:"Gerroe",    role:"m",  tz:"Africa/Johannesburg"},
   {name:"Heliosvx",    role:"m",  tz:"Europe/Amsterdam"},
+  {name:"Jolomann",    role:"m",  tz:"Europe/Amsterdam"},
   {name:"Kobe",   role:"m",  tz:"Europe/Paris"},
   {name:"Mothenise",    role:"m",  tz:"Europe/Amsterdam"},
   {name:"VoidWhisp",    role:"m",  tz:"Europe/Amsterdam"},
