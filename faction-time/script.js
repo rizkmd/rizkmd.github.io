@@ -9,6 +9,7 @@ const members = [
   {name:"Mothenise",    role:"m",  tz:"Europe/Amsterdam"},
   {name:"VoidWhisp",    role:"m",  tz:"Europe/Amsterdam"},
   {name:"Jblack",    role:"m",  tz:"Asia/Yangon"},
+  {name:"Altay",    role:"m",  tz:"Asia/Jakarta"},
   {name:"Belry",    role:"m",  tz:"Asia/Singapore"},
   {name:"Deadlocks",    role:"m",  tz:"Asia/Singapore"},
   {name:"Braxton",  role:"m", tz:"America/Chicago"},
